@@ -1,0 +1,33 @@
+#  ___________                             __
+#    \_   _____/__  _______    _____ ______ |  |   ____
+#    |    __)_\  \/  /__  \  /     \\____ \|  | _/ __ \
+#    |        \\    / / __ \_  | |  \  |_\ \  |__  ___/_
+#    /_______  /__/\_ \____  /__|_|  /   ___/____/\___  /
+#    \/      \/    \/      \/|__|             \/
+
+# This uses Graffity ASCII text from: https://texteditor.com/multiline-text-art/
+
+# This is used for automatic file updating purposes
+config-version: '1'
+
+# The locale to use in the /locale folder
+locale: en_US
+
+# Choose your data saving type:
+# MYSQL/MARIADB - Database saving
+# SQLITE - Local .db database file saving
+# Default: SQLITE
+data-type: SQLITE
+
+# Either MySQL or MariaDB will work here.
+mysql:
+  # Default: 127.0.0.1
+  host: 127.0.0.1
+  # Default: 3306
+  port: '3306'
+  # Default: ExamplePlugin
+  database: ExamplePlugin
+  # Default: root
+  username: root
+  # Default:
+  password: ''

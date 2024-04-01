@@ -1,0 +1,10 @@
+name: ExamplePlugin
+version: '${project.version}'
+main: me.yourname.example.ExamplePlugin
+authors:
+  - YourName
+api-version: "1.13"
+softdepend:
+  - PlaceholderAPI
+description: An Example plugin
+folia-supported: true
